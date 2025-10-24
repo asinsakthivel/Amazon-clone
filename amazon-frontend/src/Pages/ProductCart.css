@@ -1,0 +1,59 @@
+/* Small Amazon-style cart */
+.cart-item {
+  padding: 12px 15px;
+}
+
+.cart-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Amazon Orange Buttons */
+.btn-remove {
+  background-color: #ff9900 !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 4px 12px;
+  transition: background 0.2s;
+}
+
+.btn-remove:hover {
+  background-color: #e68a00 !important;
+}
+
+/* Amazon Theme */
+.text-amazon {
+  color: #ff9900 !important;
+}
+
+.btn-amazon {
+  background-color: #ff9900 !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-amazon:hover {
+  background-color: #e68a00 !important;
+}
+
+.btn-outline-amazon {
+  border: 1px solid #ff9900 !important;
+  color: #ff9900 !important;
+  font-weight: 600;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+}
+
+.btn-outline-amazon:hover {
+  background-color: #ff9900 !important;
+  color: #fff !important;
+}

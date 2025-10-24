@@ -1,0 +1,104 @@
+/* 🔹 Top navbar (real Amazon style) */
+.header-top {
+  background-color: #24364f; /* Amazon top bar */
+  color: white;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🔹 Logo */
+.logo {
+  margin: 0;
+}
+
+.logo-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-highlight {
+  color: #ff9900; /* Amazon yellow */
+}
+
+/* 🔹 Search bar */
+.header-search {
+  width: 50%;
+  padding: 8px 10px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.header-search:focus {
+  box-shadow: 0 0 5px #febd69;
+}
+
+/* 🔹 Right-side options */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 14px;
+}
+
+.header-link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.header-link:hover {
+  color: #febd69; /* hover Amazon yellow */
+}
+
+/* 🔹 Cart with red badge */
+.header-cart {
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #ff0000;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* 🔹 Secondary navbar */
+.header-secondary {
+  background-color: #232f3e; /* Amazon secondary bar */
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Links inside secondary navbar */
+.header-secondary a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-secondary a:hover {
+  color: #febd69;
+}
